@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>I I AM - Indian Institute Of Academic Masters</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap CSS CDN -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
   <style>
-  .fakeimg {
-    height: 200px;
-    background: #aaa;
-  }
+    .grid-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      transition: transform 0.2s ease;
+    }
+    .grid-image:hover {
+      transform: scale(1.05);
+    }
   </style>
 </head>
 <body>
-
 <div class="p-1 bg-primary text-white text-center">
   <h2>Indian Institute Of Academic Masters</h2>
   <p>Empowering students to unleash their full potential!</p> 
@@ -35,25 +42,133 @@
     </ul>
   </div>
 </nav>
-<div class="container pt-5">
-<div class="row">
-    <div class="col-sm-4">
-      <h2>TEACH ME</h2>
-      <h5>Expert corner:</h5>
- <div>
-<a href="https://wa.me/+918317486348?text=Hello,%20I%20have%20question%20on%2010th%20Maths%202nd%20Chapter%20page%2023"><img src="Ask.jpg" alt="ASK US" class="img-thumbnail"></a>
- </div>
-<p>Students who need help in learning, doubts in concepts or any questions can directly reach out to us either by touching the board above or click the button bellow.</p>
-<a href="https://wa.me/+918317486348?text=Hello,%20I%20have%20question%20on%2010th%20Maths%202nd%20Chapter%20page%2023"><button type="button" class="btn btn-success">Click to ASK</button></a>
-</div>    
-    <div class="col-sm-8">
-      <h2>NOTICE BOARD</h2>
-      <h5>Keep watching this space for updates...</h5>
-      <img src="NB.jpg" alt="NOTICE BOARD" class="img-thumbnail">
- </div>
- </div>
- </div>
+  <div class="container py-4">
+    <div class="row g-4">
+      <!-- Repeat this col for each image -->
+      <!-- Example with placeholder images -->
+      <!-- You can replace the href and img src with your own -->
+      <!-- 3 columns on md and up, 2 on sm, 1 on xs -->
+      <!-- Total 12 images for 3 x 4 -->
+      <!-- 1 -->
+      <div class="col-12 col-sm-6 col-md-4">
+		<a href="https://wa.me/+918317486348?text=Hello,%0AI%20have%20%20a%20question%20on%2010th%20Class%20Maths%202nd%20Chapter%20page%20number%2023">
+          <img
+            src="IMAGES/Ask.jpg"
+            alt="Image 2"
+            class="grid-image"
+          />
+        </a>
+      </div>
+      <!-- 2 -->
+      <div class="col-12 col-sm-6 col-md-4">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" aria-label="Slide 11"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11" aria-label="Slide 12"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="12" aria-label="Slide 13"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="IMAGES/NB.PNG" class="d-block w-100" alt="...">
+    </div>
+	    <div class="carousel-item">
+      <img src="IMAGES/1.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="IMAGES/2.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="IMAGES/3.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="IMAGES/4.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="IMAGES/5.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="IMAGES/6.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="IMAGES/7.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="IMAGES/8.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="IMAGES/9.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="IMAGES/10.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="IMAGES/11.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="IMAGES/12.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="IMAGES/13.JPG" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      </div>
+      <!-- 3 -->
+      <div class="col-12 col-sm-6 col-md-4">
+        <a href="school.html">
+          <img
+            src="IMAGES/SCH.png"
+            alt="Image 3"
+            class="grid-image"
+          />
+        </a>
+      </div>
+   
+      </div>
+    </div>
+  </div>
+<div class="website-counter"></div>
 
 
+  <script>
+    var counterContainer = document.querySelector(".website-counter");
+    var resetButton = document.querySelector("#reset");
+    var visitCount = localStorage.getItem("page_view");
+
+    if (visitCount) {
+      visitCount = Number(visitCount) + 1;
+      localStorage.setItem("page_view", visitCount);
+    } else {
+      visitCount = 1;
+      localStorage.setItem("page_view", 1);
+    }
+
+    counterContainer.innerHTML = visitCount;
+
+    resetButton.addEventListener("click", () => {
+      visitCount = 1;
+      localStorage.setItem("page_view", 1);
+      counterContainer.innerHTML = visitCount;
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
